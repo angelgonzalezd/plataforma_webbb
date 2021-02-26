@@ -1,0 +1,17 @@
+CSS 2
+
+- taller_08 -> posicionamiento - absoluto
+- taller_09 -> posicionamiento - caja
+- taller_10 -> posicionamiento de selectores
+- taller_11 -> posicionamiento - relative
+- taller_12 -> posicionamiento - fixed
+- taller_13 -> posicionamiento - estático
+- taller_14 -> posicionamiento - float (I)
+
+CSS 3
+
+- taller_01 -> Geid columnas / filas con porcentajes y pixeles
+- taller_02 -> Grid Columnas / filas con fracciones
+- taller_03 -> Grid Columnas / filas con funciones y fracciones
+- taller_04 -> Grid Areas
+- taller_05 -> Flexbox

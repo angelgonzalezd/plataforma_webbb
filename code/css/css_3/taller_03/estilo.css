@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template: repeat(5, 1fr) / auto auto auto;
+/*    grid-template: 300px 100px 100px / minmax(200px, 1fr) 1fr 1fr 1fr;*/
+    grid-gap: 10px;
+}
+
+.item {
+    background: lightblue;
+    border: 1px solid black;
+}

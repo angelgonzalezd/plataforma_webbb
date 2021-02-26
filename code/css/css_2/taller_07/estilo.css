@@ -1,0 +1,26 @@
+a {
+    display: block;
+    color: white;
+    width: 100px;
+    line-height: 30px;
+    border: solid black;
+    text-align: center;
+    background-color: rosybrown;
+}
+
+a:link a:visited {
+    background-color: rosybrown;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+a.a_anterior {
+    float: left;
+}
+
+a.a_siguiente {
+    float: right;
+}
