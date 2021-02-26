@@ -1,25 +1,26 @@
-const db = require('mongoose')
 const Model = require('./model')
-
-const uri = "mongodb+srv://Angel99vr:@240915@cluster0.lubsf.mongodb.net/PSDB?retryWrites=true&w=majority";
-
-db.Promise = global.Promise
-db.connect(uri, {
-    useNewUrlParser:true,
-    useUnifiedTopology:true,
-    dbName:'PSDB'
-})
-    .then(() => console.log('[db] Conectada con éxito.'))
-    .catch((error) => console.error('[error] ', error))
 
 function addUsuario( usuario ) {
     const objeto = new Model( usuario )
     objeto.save()
 }
 
-async function getUsuarios() {
-    const objetos = await Model.find()
-    return objetos
+function getUsuarios( filtroUsuario ) {
+    return new Promise((resolve, reject) => {
+        let filtro = {}
+        if (filtroUsuario != null) {
+            filtro = { usuario: filtroUsuario }
+        }
+        Model.find( filtro )
+            .populate( 'carrera' )
+            .exec( (error, populated) => {
+                if (error) {
+                    reject( error )
+                    return false
+                }
+                resolve( populated )
+            } )
+    })
 }
 
 async function updateUsuario(id_usuario, usuario) {

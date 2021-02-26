@@ -6,13 +6,27 @@ const mySchema = new Schema({
         type: String,
         required: true,
     },
+    domicilio: {
+        type: String,
+        required: true,
+    },
+    telefono: {
+        type: String,
+        required: true,
+    },
+    tipo_institucion: {
+        type: String,
+        required: true,
+    },
+    fecha_creacion: {
+        type: Date,
+        required: true,
+    },
     representante_legal: {
         type: Schema.ObjectId,
-        ref: 'representante_legal',
+        ref: 'Representante_Legal',
     },
-    fecha_creacion: Date,
-
 })
 
-const model = mongoose.model('institucion', mySchema)
+const model = mongoose.model('Institucion', mySchema)
 module.exports = model

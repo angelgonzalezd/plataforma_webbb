@@ -21,14 +21,12 @@ const mySchema = new Schema({
     telefono: {
         type: String,
         required: true,
-
     },
-    
     fecha_creacion: {
         type: Date,
         required: true,
     }
 })
 
-const model = mongoose.model('representante_Legal', mySchema)
+const model = mongoose.model('Representante_Legal', mySchema)
 module.exports = model

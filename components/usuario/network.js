@@ -6,7 +6,8 @@ const router = express.Router()
 
 router.get('/', function(req, res) {
 
-    controller.getUsuarios()
+    const filtroUsuario = req.query.usuario || null
+    controller.getUsuarios( filtroUsuario )
         .then((data) => {
             response.success(req, res, data, 200)
         })

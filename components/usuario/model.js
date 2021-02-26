@@ -34,7 +34,6 @@ const mySchema = new Schema({
         type: Schema.ObjectId,
         ref: 'Carrera',
     },
-    fecha_creacion: Date,
     fecha_nacimiento: Date,
 })
 

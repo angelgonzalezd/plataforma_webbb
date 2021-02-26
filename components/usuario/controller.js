@@ -45,9 +45,9 @@ function updateUsuario(id_usuario, usuario, clave, nombre, apellido, correo, tip
     } )
 }
 
-function getUsuarios() {
+function getUsuarios( filtroUsuario ) {
     return new Promise((resolve, reject) => {
-        resolve( storage.list() )
+        resolve( storage.list( filtroUsuario ) )
     })
 }
 
