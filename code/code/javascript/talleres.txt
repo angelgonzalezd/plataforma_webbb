@@ -1,0 +1,20 @@
+taller_01 -> Tipos de datos
+taller_02 -> Objetos
+taller_03 -> Funciones
+taller_04 -> Lista de objetos y funciones: map, filter, find, some, foreach
+taller_05 -> arreglos / listas
+taller_06 -> Objetos - avanzados.
+taller_07 -> Alcance de las variables.
+taller_08 -> Bucle while / Funciones tipo flecha.
+taller_09 -> Var o Let entre archivos js
+taller_10 -> do_while
+taller_11 -> Arreglos de objetos y aplicación de funciones: filter, map y reduce.
+taller_12 -> Comparación entre objetos.
+taller_13 -> POO - Javascript puro.
+taller_14 -> POO - EcmaScript 
+taller_15 -> Funciones como parámetros.
+
+ASINCRONISMO 
+
+taller_16 -> Nociones de Asincronismo.
+taller_17 -> Funciones tipo callback + Asincronismo.

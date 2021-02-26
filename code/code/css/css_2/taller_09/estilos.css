@@ -1,0 +1,8 @@
+.box {
+    border: 1px solid blue;
+    margin: 10px 20px;
+    padding: 20px 10px;
+    background-image: url('homer_tux.png');
+    background-repeat: no-repeat;
+    background-color: rosybrown;
+}

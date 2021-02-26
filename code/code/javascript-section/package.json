@@ -1,0 +1,19 @@
+{
+  "name": "javascript-seccion2",
+  "version": "1.0.0",
+  "description": "Asincronismo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "fundamentos",
+    "asincronismo"
+  ],
+  "author": "Guillermo Pizarro",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

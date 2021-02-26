@@ -1,0 +1,12 @@
+p {
+    padding: 10px 20px 30px 40px;
+    border: 2px solid blue;
+    margin: 10px 10px;
+}
+
+p#p_absoluto {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: green;
+}

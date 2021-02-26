@@ -1,0 +1,7 @@
+img [title] {
+    border: 20px solid red; 
+}
+
+ img [alt="Homero Tux"] {
+     border: 2px solid red;
+ }
